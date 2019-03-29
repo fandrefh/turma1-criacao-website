@@ -1,0 +1,20 @@
+/* Reset da página */
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+body {
+    background-color: rgba(148, 0, 211, 0.472);
+    color: #FFF;
+}
+
+.tag {
+    color: rgb(34, 34, 42);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+}
