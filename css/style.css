@@ -6,15 +6,40 @@
 }
 */
 body {
-    background-color: rgba(148, 0, 211, 0.472);
-    color: #FFF;
+    background-color: #FFDAB9;
+    color: #800000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.tag {
-    color: rgb(34, 34, 42);
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid;
 }
 
-.titulo {
+.title {
     text-align: center;
     font-size: 50px;
+}
+
+.section-title {
+    font-size: 30px;
+}
+
+.text-section {
+    width: 48%;
+    height: auto;
+}
+
+.text-section-left {
+    float: left;
+}
+
+.text-section-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
 }
