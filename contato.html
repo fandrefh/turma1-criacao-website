@@ -13,18 +13,28 @@
 <body>
     <div class="container">
         <h1 class="title">Novas TAGs HTML - Página de Contato</h1>
-        <section class="about-us">
-            <h2 class="section-title">Fale conosco</h2>
-            <form action="" method="">
-                <label for="">Digite seu nome</label>
-                <input type="text" name="nome" id="" placeholder="Digite seu nome completo">
-                <label for="">Digite seu e-mail</label>
-                <input type="email" name="email" id="" placeholder="Digite um e-mail válido">
-                <label for="">Digite sua mensagem</label>
-                <textarea name="mensagem" id="" cols="30" rows="5" placeholder="Capriche na mensagem"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+        <div class="area">
+            <section class="about-us">
+                <fieldset>
+                <legend>fale conosco</legend>
+                    <form action="" method="">
+                        <div class="input-form">
+                            <label for="id-nome">Digite seu nome</label>
+                            <input type="text" name="nome" id="id-nome" class="input-text" autofocus placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="input-form">
+                            <label for="id-email">Digite seu e-mail</label>
+                            <input type="email" name="email" id="id-email" class="input-text" placeholder="Digite um e-mail válido">
+                        </div>
+                        <div class="input-form">
+                            <label for="id-mensagem">Digite sua mensagem</label><br>
+                            <textarea name="mensagem" id="id-mensagem" class="input-msg" cols="30" rows="5" placeholder="Capriche na mensagem"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </fieldset>
+            </section>
+        </div>
         <footer>
             <ul>
                 <li><a href="aula2.html">Home</a></li>
