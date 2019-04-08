@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seletor 1</title>
+    <link rel="stylesheet" href="meuestilo.css"> <!-- CSS Externo | A melhor de se fazer -->
+    <!-- CSS on page | Prioridade sobre CSS Externo -->
+    <style>
+        /*
+        Reset da pré estilização do navegador
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        */
+        /*
+        #container * {
+            border: 1px solid black;
+        }
+        */
+        #container {
+            width: 360px;
+            margin: auto;
+        }
+        .error {
+            color: red;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+        /*
+        li a {
+            text-decoration: none;
+        }
+        li a:visited {
+            text-decoration: none;
+            color: red;
+        }
+        */
+        a[title] {
+            color: green;
+        }
+        a[href="https://sitechecker.pro/pt/account/plans/"] {
+            color: blueviolet;
+        }
+        input[type=radio]:checked {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!-- CSS inline | Maior prioridade -->
+        <!--<p style="color:red">Meu paragráfo aqui</p>-->
+        <p><a href="">Meu paragráfo aqui</a></p>
+        <ul>
+            <li><a href="" title="Eu sou um título">Item 1</a></li>
+            <li><a href="https://sitechecker.pro/pt/account/plans/">Item 2</a></li>
+            <li><a href="">Item 3</a></li>
+        </ul>
+        <ul>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ul>
+    </div>
+    <div>
+        <p class="error">Alguma coisa aqui</p>
+    </div>
+    <input type="radio" checked="checked">Opção 1
+    <input type="radio">Opção 2
+    <input type="radio">Opção 3
+</body>
+</html>
