@@ -17,18 +17,18 @@
             <section class="about-us">
                 <fieldset>
                 <legend>fale conosco</legend>
-                    <form action="" method="">
+                    <form action="" method="POST">
                         <div class="input-form">
                             <label for="id-nome">Digite seu nome</label>
-                            <input type="text" name="nome" id="id-nome" class="input-text" autofocus placeholder="Digite seu nome completo">
+                            <input type="text" name="nome" id="id-nome" class="input-text" required autofocus placeholder="Digite seu nome completo">
                         </div>
                         <div class="input-form">
                             <label for="id-email">Digite seu e-mail</label>
-                            <input type="email" name="email" id="id-email" class="input-text" placeholder="Digite um e-mail válido">
+                            <input type="email" name="email" id="id-email" class="input-text" required placeholder="Digite um e-mail válido">
                         </div>
                         <div class="input-form">
                             <label for="id-mensagem">Digite sua mensagem</label><br>
-                            <textarea name="mensagem" id="id-mensagem" class="input-msg" cols="30" rows="5" placeholder="Capriche na mensagem"></textarea>
+                            <textarea name="mensagem" id="id-mensagem" class="input-msg" cols="30" rows="5" required placeholder="Capriche na mensagem"></textarea>
                         </div>
                         <button type="submit">Enviar</button>
                     </form>
