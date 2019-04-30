@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício Funções</title>
+</head>
+<body>
+    
+        <label for="">Número 1</label>
+        <input type="number" id="campo1">
+        <label for="">Número 2</label>
+        <input type="number" id="campo2">
+        <button onclick="calcular()">Calcular</button>
+    
+    <h1>Resultado: <span id="resultado_calculo"></span></h1>
+    <span id="saudacao"></span>
+    <script>
+        function calcular() {
+            let numero1 = document.getElementById("campo1").value
+            let numero2 = document.getElementById("campo2").value
+            document.getElementById("resultado_calculo").innerHTML = parseFloat(numero1) + parseFloat(numero2)
+        }
+    </script>
+</body>
+</html>

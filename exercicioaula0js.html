@@ -8,11 +8,41 @@
 </head>
 <body>
     <h1>Operações Matemáticas</h1>
+    <h2>Operadores</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <td>Operador</td>
+                <td>Ação</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:center">+</td>
+                <td>Adição</td>
+            </tr>
+            <tr>
+                <td style="text-align:center">-</td>
+                <td>Subtração</td>
+            </tr>
+            <tr>
+                <td style="text-align:center">/</td>
+                <td>Divisão</td>
+            </tr>
+            <tr>
+                <td style="text-align:center">*</td>
+                <td>Multiplicação</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Resultado: <span id="resultado"></span></h2>
     <script>
-        let numero1 = 2
-        let numero2 = 4
+        let numero1 = prompt("Digite o primeiro número:")
+        let numero2 = prompt("Digite o segundo número:")
         let resultado = numero1 / numero2
         console.log('Resultado:', resultado)
+        document.getElementById("resultado").innerHTML = resultado
+        alert("Resultado: " + resultado)
     </script>
 </body>
 </html>

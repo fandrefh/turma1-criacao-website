@@ -1,0 +1,88 @@
+search-suggestions.js:1 Failed to load resource: net::ERR_FAILED
+10
+10
+1.5
+1.5
+"Eu 555çççç ))*** sou uma string"
+"Eu 555çççç ))*** sou uma string"
+let numero1 = 10
+undefined
+typeof numero1
+"number"
+let numero2 = 10.5
+undefined
+typeof numero2
+"number"
+let nome = "Francisco"
+undefined
+typeof nome
+"string"
+let carros = ['Volvo', 'BMW', 'Mercedes', 'Porche']
+undefined
+carros
+(4) ["Volvo", "BMW", "Mercedes", "Porche"]
+carros[0]
+"Volvo"
+carros[3]
+"Porche"
+carros[4]
+undefined
+carros[0] = 'Audi'
+"Audi"
+carros'
+VM332:1 Uncaught SyntaxError: Invalid or unexpected token
+carros
+(4) ["Audi", "BMW", "Mercedes", "Porche"]
+carros[0]
+"Audi"
+carros.push('Nissan')
+5
+carros
+(5) ["Audi", "BMW", "Mercedes", "Porche", "Nissan"]
+carros.push('KIA')
+6
+carros.push('Pegeout')
+7
+carros
+(7) ["Audi", "BMW", "Mercedes", "Porche", "Nissan", "KIA", "Pegeout"]
+carros.length
+7
+let carros_alemas = []
+undefined
+carros_alemas
+[]
+carros_alemas.push('Mercedes')
+1
+carros_alemas
+["Mercedes"]
+carros_alemas.push('Audi')
+2
+carros_alemas
+(2) ["Mercedes", "Audi"]
+for (let i = 0; i <= 10; i++) {
+    console.log(i)
+}
+VM742:2 0
+VM742:2 1
+VM742:2 2
+VM742:2 3
+VM742:2 4
+VM742:2 5
+VM742:2 6
+VM742:2 7
+VM742:2 8
+VM742:2 9
+VM742:2 10
+undefined
+for (let i = 0; i <= carros.length; i++) {
+    console.log(carros[i])
+}
+VM863:2 Audi
+VM863:2 BMW
+VM863:2 Mercedes
+VM863:2 Porche
+VM863:2 Nissan
+VM863:2 KIA
+VM863:2 Pegeout
+VM863:2 undefined
+undefined
