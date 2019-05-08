@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício Avaliação Idade</title>
+</head>
+<body>
+    <h1>Portaria do Reggae</h1>
+    <label for="">Informe sua idade</label>
+    <input type="text" id="idade" autofocus>
+    <button onclick="verificaIdade()">Verificar idade</button>
+    <h2>Mensagem: <span id="mensagem"></span></h2>
+    <script>
+        function verificaIdade() {
+            let idade = parseInt(document.getElementById("idade").value)
+            if (idade >= 18) {
+                document.getElementById("mensagem").innerHTML = "Pode entrar!"
+            } else if (idade >= 16) {
+                document.getElementById("mensagem").innerHTML = "Pode entrar, mas acompanhado!"
+            } else {
+                document.getElementById("mensagem").innerHTML = "Vai pra casa dormir!"
+            }
+        }
+    </script>
+</body>
+</html>
